@@ -3,7 +3,7 @@ Print JSON property to stdout
 
 ## Installation
 
-```
+```bash
 npm install --global json-property
 ```
 
