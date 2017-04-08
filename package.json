@@ -3,6 +3,7 @@
   "description": "Print JSON property to stdout",
   "version": "0.0.5",
   "bin": "index.js",
+  "preferGlobal": true,
   "author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
   "contributors": [
     "Hoàng Văn Khải <hvksmr1996@gmail.com>"
