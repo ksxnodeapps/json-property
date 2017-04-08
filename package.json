@@ -1,7 +1,7 @@
 {
   "name": "json-property",
   "description": "Print JSON property to stdout",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "bin": "index.js",
   "preferGlobal": true,
   "author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
