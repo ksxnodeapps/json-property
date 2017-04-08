@@ -1,0 +1,6 @@
+json-property — Read JSON properties
+
+Usage:
+  $ json-property [file] [properties]
+  $ json-property [properties] < [file]
+  $ cat [file] | json-property [properties]
