@@ -9,6 +9,7 @@ temp.*
 *.tmp
 *.temp
 *.sh
+*.tern-project*
 .git*
 /.travis.yml
 /appveyor.yml
