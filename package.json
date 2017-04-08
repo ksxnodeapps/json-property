@@ -1,5 +1,6 @@
 {
   "name": "json-property",
+  "description": "Print JSON property to stdout",
   "version": "0.0.4",
   "bin": "index.js",
   "author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",

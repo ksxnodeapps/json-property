@@ -1,5 +1,5 @@
 # json-property
-Read object from stdin as JSON
+Print JSON property to stdout
 
 ## Installation
 

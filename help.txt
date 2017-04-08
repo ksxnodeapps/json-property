@@ -1,4 +1,4 @@
-json-property — Read JSON properties
+json-property — Print JSON property to stdout
 
 Usage:
   $ json-property [file] [properties]
