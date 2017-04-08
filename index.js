@@ -37,6 +37,7 @@ getStdIn()
       const string = String(value)
       if (string) return main(string, usefulargv)
       const [file, ...field] = usefulargv
+      if (!file) failure(readFileSync(join(__dirname, 'help.txt'), 'utf8'), 0)
       return main(readFileSync(file, 'utf8'), field)
     }
   )
