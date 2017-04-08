@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "bin": "index.js",
   "author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
+  "dependencies": {
+    "get-stdin": "^5.0.1"
+  },
   "devDependencies": {
     "standard": "8.0.0"
   },
