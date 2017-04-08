@@ -7,7 +7,7 @@
     "get-stdin": "^5.0.1"
   },
   "devDependencies": {
-    "standard": "8.0.0"
+    "standard": "^10.0.1"
   },
   "scripts": {
     "remake-package-json": "node sh/remake-package-json",
