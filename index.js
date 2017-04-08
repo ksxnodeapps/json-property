@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 'use strict'
 
-const {join} = require('path')
+const {resolve} = require('path')
 const {readFileSync} = require('fs')
 const process = require('process')
 const getStdIn = require('get-stdin')
@@ -37,7 +37,7 @@ getStdIn()
       const string = String(value)
       if (string) return main(string, usefulargv)
       const [file, ...field] = usefulargv
-      if (!file) failure(readFileSync(join(__dirname, 'help.txt'), 'utf8'), 0)
+      if (!file) failure(readFileSync(resolve(__dirname, 'help.txt'), 'utf8'), 0)
       return main(readFileSync(file, 'utf8'), field)
     }
   )
