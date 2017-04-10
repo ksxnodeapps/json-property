@@ -1,5 +1,5 @@
 # json-property
-Print JSON property to stdout
+Quickly manipulate JSON files
 
 ## Installation
 
@@ -8,6 +8,8 @@ npm install --global json-property
 ```
 
 ## Command-line usage
+
+### Print JSON content
 
 ```bash
 json-property file.json property_name_1 property_name_2 property_name_3
@@ -19,4 +21,18 @@ json-property property_name_1 property_name_2 property_name_3 < file.json
 
 ```bash
 cat file.json | json-property property_name_1 property_name_2 property_name_3
+```
+
+### Modify JSON content
+
+```bash
+set-json-property value file.json property_name_1 property_name_2 property_name_3
+```
+
+```bash
+set-json-property value property_name_1 property_name_2 property_name_3 < input.json > output.json
+```
+
+```bash
+cat input.json | set-json-property value property_name_1 property_name_2 property_name_3 > output.json
 ```

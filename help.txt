@@ -1,6 +1,13 @@
-json-property — Print JSON property to stdout
+get-json-property — Print JSON property to stdout
 
 Usage:
-  $ json-property [file] [properties]
-  $ json-property [properties] < [file]
-  $ cat [file] | json-property [properties]
+  $ get-json-property [file] [properties]
+  $ get-json-property [properties] < [file]
+  $ cat [file] | get-json-property [properties]
+
+set-json-property — Set JSON property
+
+Usage:
+  $ set-json-property [value] [file] [properties]
+  $ set-json-property [value] [properties] < [input] > [output]
+  $ cat [input] | set-json-property [value] [properties] > [output]

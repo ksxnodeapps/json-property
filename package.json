@@ -1,8 +1,12 @@
 {
   "name": "json-property",
-  "description": "Print JSON property to stdout",
+  "description": "Quickly manipulate JSON files",
   "version": "0.0.6",
-  "bin": "index.js",
+  "bin": {
+    "json-property": "get.js",
+    "get-json-property": "get.js",
+    "set-json-property": "set.js"
+  },
   "preferGlobal": true,
   "author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
   "contributors": [
