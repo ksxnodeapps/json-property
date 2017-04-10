@@ -12,15 +12,15 @@ npm install --global json-property
 ### Print JSON content
 
 ```bash
-json-property file.json property_name_1 property_name_2 property_name_3
+get-json-property file.json property_name_1 property_name_2 property_name_3
 ```
 
 ```bash
-json-property property_name_1 property_name_2 property_name_3 < file.json
+get-json-property property_name_1 property_name_2 property_name_3 < file.json
 ```
 
 ```bash
-cat file.json | json-property property_name_1 property_name_2 property_name_3
+cat file.json | get-json-property property_name_1 property_name_2 property_name_3
 ```
 
 ### Modify JSON content
