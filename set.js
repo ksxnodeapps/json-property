@@ -21,7 +21,7 @@ getStdIn()
         : [tryReadFile(restargv[0], 'null', 'utf8'), createWriteStream(restargv[0]), restargv.slice(1)]
       const input = parse(json)
       const output = setproppath(value, input, ...properties)
-      wstream.end(stringify(output, undefined, 2))
+      wstream.write(stringify(output, undefined, 2) + '\n')
     }
   )
   .catch(failure)
