@@ -36,7 +36,7 @@
     "json-cli"
   ],
   "bugs": {
-		"url": "https://github.com/ksxnodeapps/json-property/issues"
-	},
-	"homepage": "https://github.com/ksxnodeapps/json-property#readme"
+    "url": "https://github.com/ksxnodeapps/json-property/issues"
+  },
+  "homepage": "https://github.com/ksxnodeapps/json-property#readme"
 }
