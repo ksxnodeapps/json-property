@@ -5,7 +5,7 @@ const {resolve} = require('path')
 const {readFileSync} = require('fs')
 const {argv} = require('process')
 const getStdIn = require('get-stdin')
-const {success, failure, getproppath} = require('./lib/utils.js')
+const {success, failure, getproppath, endhelp} = require('./lib/utils.js')
 const {parse, stringify} = JSON
 const usefulargv = argv.slice(2)
 
@@ -18,7 +18,7 @@ getStdIn()
       const string = String(value)
       if (string) return main(string, usefulargv)
       const [file, ...field] = usefulargv
-      if (!file) failure(readFileSync(resolve(__dirname, 'help.txt'), 'utf8'), 0)
+      if (!file) return endhelp()
       return main(readFileSync(file, 'utf8'), field)
     }
   )
