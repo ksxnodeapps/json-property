@@ -3,7 +3,7 @@
   "description": "Quickly manipulate JSON files",
   "version": "0.0.6",
   "bin": {
-    "json-property": "get.js",
+    "json-property": "index.js",
     "get-json-property": "get.js",
     "set-json-property": "set.js"
   },
@@ -36,7 +36,7 @@
     "json-cli"
   ],
   "bugs": {
-		"url": "https://github.com/ksxnodeapps/json-property/issues"
-	},
-	"homepage": "https://github.com/ksxnodeapps/json-property#readme"
+    "url": "https://github.com/ksxnodeapps/json-property/issues"
+  },
+  "homepage": "https://github.com/ksxnodeapps/json-property#readme"
 }

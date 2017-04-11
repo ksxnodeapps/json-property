@@ -3,15 +3,14 @@
 
 const {resolve} = require('path')
 const {readFileSync} = require('fs')
-const process = require('process')
+const {argv} = require('process')
 const getStdIn = require('get-stdin')
-const {success, failure, getprop} = require('./lib/utils.js')
+const {success, failure, getproppath} = require('./lib/utils.js')
 const {parse, stringify} = JSON
-const {argv} = process
 const usefulargv = argv.slice(2)
 
 const main = (json, field) =>
-  success(stringify(field.reduce(getprop, parse(json)), undefined, 2))
+  success(stringify(getproppath(parse(json), ...field), undefined, 2))
 
 getStdIn()
   .then(
