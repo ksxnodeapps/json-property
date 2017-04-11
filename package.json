@@ -1,7 +1,7 @@
 {
   "name": "json-property",
   "description": "Quickly manipulate JSON files",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "bin": {
     "json-property": "index.js",
     "get-json-property": "get.js",
