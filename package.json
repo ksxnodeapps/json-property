@@ -18,6 +18,7 @@
     "url": "https://github.com/ksxnodeapps/json-property.git"
   },
   "dependencies": {
+    "just-try": "^2.0.1",
     "get-stdin": "^5.0.1"
   },
   "devDependencies": {
