@@ -1,0 +1,13 @@
+get-json-property — Print JSON content
+
+Usage:
+  $ get-json-property [file] [properties]
+  $ get-json-property [properties] < [file]
+  $ cat [file] | get-json-property [properties]
+
+set-json-property — Modify JSON content
+
+Usage:
+  $ set-json-property [value] [file] [properties]
+  $ set-json-property [value] [properties] < [input] > [output]
+  $ cat [input] | set-json-property [value] [properties] > [output]

@@ -1,6 +1,0 @@
-json-property — Print JSON property to stdout
-
-Usage:
-  $ json-property [file] [properties]
-  $ json-property [properties] < [file]
-  $ cat [file] | json-property [properties]

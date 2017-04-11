@@ -1,8 +1,12 @@
 {
   "name": "json-property",
-  "description": "Print JSON property to stdout",
-  "version": "0.0.6",
-  "bin": "index.js",
+  "description": "Quickly manipulate JSON files",
+  "version": "0.1.0",
+  "bin": {
+    "json-property": "index.js",
+    "get-json-property": "get.js",
+    "set-json-property": "set.js"
+  },
   "preferGlobal": true,
   "author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
   "contributors": [
@@ -14,6 +18,7 @@
     "url": "https://github.com/ksxnodeapps/json-property.git"
   },
   "dependencies": {
+    "just-try": "^2.0.1",
     "get-stdin": "^5.0.1"
   },
   "devDependencies": {
@@ -32,7 +37,7 @@
     "json-cli"
   ],
   "bugs": {
-		"url": "https://github.com/ksxnodeapps/json-property/issues"
-	},
-	"homepage": "https://github.com/ksxnodeapps/json-property#readme"
+    "url": "https://github.com/ksxnodeapps/json-property/issues"
+  },
+  "homepage": "https://github.com/ksxnodeapps/json-property#readme"
 }
