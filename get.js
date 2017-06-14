@@ -1,7 +1,6 @@
 #! /usr/bin/env node
 'use strict'
 
-const {resolve} = require('path')
 const {readFileSync} = require('fs')
 const {argv} = require('process')
 const getStdIn = require('get-stdin')
