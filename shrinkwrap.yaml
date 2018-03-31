@@ -1,5 +1,5 @@
 dependencies:
-  get-stdin: 5.0.1
+  get-stdin: 6.0.0
   just-try: 2.0.1
 devDependencies:
   standard: 10.0.3
@@ -663,10 +663,17 @@ packages:
     resolution:
       integrity: sha1-nA4cQDCM6AT0eDYYuTf6iPmdUNA=
   /get-stdin/5.0.1:
+    dev: true
     engines:
       node: '>=0.12.0'
     resolution:
       integrity: sha1-Ei4WFZHiH/TFJTAwVpPyDmOTo5g=
+  /get-stdin/6.0.0:
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha512-jp4tHawyV7+fkkSKyvjuLZswblUtz+SQKzSWnBbii16BuZksJlU1wuBYXY75r+duh/llF1ur6oNwi+2ZzjKZ7g==
   /glob/7.1.2:
     dependencies:
       fs.realpath: 1.0.0
@@ -1440,6 +1447,6 @@ registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 4
 shrinkwrapVersion: 3
 specifiers:
-  get-stdin: ^5.0.1
+  get-stdin: ^6.0.0
   just-try: ^2.0.1
   standard: ^10.0.1
