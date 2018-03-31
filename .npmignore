@@ -18,3 +18,5 @@ temp.*
 /circle.yml
 /sh
 docs
+yarn.lock
+shrinkwrap.yaml
