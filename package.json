@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "just-try": "^2.0.1",
-    "get-stdin": "^7.0.0"
+    "get-stdin": "^9.0.0"
   },
   "devDependencies": {
     "standard": "^10.0.1"
